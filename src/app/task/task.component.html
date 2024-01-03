@@ -1,5 +1,6 @@
-<div *ngFor="let task of tasks" class="task-box">
-    <p>{{ task.name }}</p>
-    <p>Date: {{ task.date | date:'short' }}</p>
-  </div>
-  
+<div *ngFor="let task of tasks" class="task-box" (click)="onSelectTask(task)">
+  <p>{{ task.name }}</p>
+  <p>Date: {{ task.date | date:'short' }}</p>
+</div>
+
+<app-task-detail [task]="selectedTask"></app-task-detail>

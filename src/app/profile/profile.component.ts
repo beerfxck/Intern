@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    // Make HTTP request to get profile data
+    
     this.http.get('http://103.13.31.37:17444/api/my/profile')
       .subscribe((data: any) => {
         this.profileData = this.convertNumbers(data);

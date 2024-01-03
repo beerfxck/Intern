@@ -8,14 +8,14 @@
   
   .avatar {
     margin-top: 20px;
-    width: 150px; /* Adjust the width as needed */
-    height: 150px; /* Adjust the height as needed */
-    border-radius: 50%; /* Optional: Makes the image round */
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
   }
   
   .info-container {
     color: white;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
     text-align: center;
   }
   
@@ -23,8 +23,8 @@
   .follow {
     background-color: white;
     display: flex;
-    margin-top: 5px; /* Adjust the margin as needed */
-    border-radius: 100px; /* Adjust the border-radius for the desired curve */
+    margin-top: 5px; 
+    border-radius: 100px; 
   }
   
   .follow-column {
@@ -34,12 +34,12 @@
   
   .follow-label {
     color: black;
-    font-weight: bold; /* Optional: Makes the label bold */
+    font-weight: bold; 
   }
   
   .follow-value {
     color: black;
-    margin-top: 5px; /* Adjust the margin between label and value */
+    margin-top: 5px; 
   }
   
   
