@@ -1,0 +1,17 @@
+
+.task-box {
+    width: 50;
+    height: 30;
+    padding-right: px;
+    background-color: #b92f23;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 10px; /* Adjust the radius based on your preference */
+    
+  }
+  
+  .task-box p {
+    color: white;
+    font-weight: bold;
+    margin-left: 25px; /* Adjust the left margin to move text to the right */
+  }

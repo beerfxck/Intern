@@ -1,0 +1,5 @@
+<div *ngFor="let task of tasks" class="task-box">
+    <p>{{ task.name }}</p>
+    <p>Date: {{ task.date | date:'short' }}</p>
+  </div>
+  
